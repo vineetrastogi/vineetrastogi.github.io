@@ -28,9 +28,9 @@
 ### This was the first blog post I've ever written, and it definitely helped me to better understand the things I was supposed to learn. I hope it was useful to you in understanding these topics as well!
 
 > 
-Until next time,
+## Until next time,
 >
-Vineet Rastogi
+## Vineet Rastogi
 
 
 
