@@ -21,16 +21,18 @@
 
 >
 
-### This is where [Git](http://www.git-scm.com/video/what-is-git) and [GitHub](http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/) come into play. Git is a version control system that you can download on any computer. It allows you to backup and restore any version of a curent project you are working on. As a new user, it has been a really cool experience, especially when making a ton of changes to a file or project. Git uses these things called commits to save progress on a project. Basically they are equivalent to checkpoints in a video game or drafts of an essay. One specific thing that I like is that when you make a commit, you are able to create a description for what that "checkpoint" is, and why you created it. I like to be as organized as possible, so being able to create a clear set of checkpoints for my future self is pretty exciting. [So what is the difference between Git and Github?](http://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github) Well Git is theversion control system for your code *locally and GitHub is essentially a web-page which allows you to work with others *remotely. Both of these work really well with one another to help people make changes on their computers locally and then push those changes to a repository on GitHub.com. The point of even using GitHub to store your code is really so that there is a centralized location for whatever project you're working on, alone or in a group. Git seems to have become THE standard for version control and collaboration, and I'm really excited to learn more about using it!
+### This is where [Git](http://www.git-scm.com/video/what-is-git) and [GitHub](http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/) come into play. Git is a version control system that you can download on any computer. It allows you to backup and restore any version of a curent project you are working on. As a new user, it has been a really cool experience, especially when making a ton of changes to a file or project. Git uses these things called commits to save progress on a project. Basically they are equivalent to checkpoints in a video game or drafts of an essay. One specific thing that I like is that when you make a commit, you are able to create a description for what that "checkpoint" is, and why you created it. I like to be as organized as possible, so being able to create a clear set of checkpoints for my future self is pretty exciting. [So what is the difference between Git and Github?](http://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github) Well Git is the version control system for your code *locally and GitHub is essentially a web-page which allows you to work with others *remotely. Both of these work really well with one another to help people make changes on their computers locally and then push those changes to a repository on GitHub.com. The point of even using GitHub to store your code is really so that there is a centralized location for whatever project you're working on, alone or in a group. Git seems to have become THE standard for version control and collaboration, and I'm really excited to learn more about using it!
 
 >
 
 ### This was the first blog post I've ever written, and it definitely helped me to better understand the things I was supposed to learn. I hope it was useful to you in understanding these topics as well!
 
-> 
-## Until next time,
+>
+
+## Thanks for reading,
 
 >
+
 ## Vineet Rastogi
 
 
