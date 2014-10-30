@@ -8,7 +8,7 @@
 
 >
 
-### After watching [Shereef's Fireside Chat](http://vimeo.com/85001014), I'm still somewhat nervous about the whole Dev Bootcamp experience. I am definitely excited to get going, and learn how to be a "world class beginner", but am mostly unsettled by the expectations for when I begin the 9 week on site program. Despite these feelings though, I really believe that the mentors and community at DBC are looking to help each and every student succeed. One of the things that drew me to this bootcamp specifically was the small classs sizes. Coming from a university where the majority of my classes were very big, I'm looking forward the learning environment at DBC. 
+### After watching [Shereef's Fireside Chat](http://vimeo.com/85001014), I'm still somewhat nervous about the whole Dev Bootcamp experience. I am definitely excited to get going, and learn how to be a "world class beginner", but am mostly unsettled by the expectations for when I begin the 9 week on site program. Despite these feelings though, I really believe that the mentors and community at DBC are looking to help each and every student succeed. One of the things that drew me to this bootcamp specifically was the small class sizes. Coming from a university where the majority of my classes were very big, I'm looking forward the learning environment at DBC. 
 
 >
 
