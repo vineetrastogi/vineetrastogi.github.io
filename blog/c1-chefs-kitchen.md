@@ -1,0 +1,27 @@
+# Cultural Blog Post
+==================================================
+
+## What my take on DBC is, and my expectations for the next 18 weeks
+===========================================================
+
+## October 30, 2014
+
+>
+
+### After watching [Shereef's Fireside Chat](http://vimeo.com/85001014), I'm still somewhat nervous about the whole Dev Bootcamp experience. I am definitely excited to get going, and learn how to be a "world class beginner", but am mostly unsettled by the expectations for when I begin the 9 week on site program. Despite these feelings though, I really believe that the mentors and community at DBC are looking to help each and every student succeed. One of the things that drew me to this bootcamp specifically was the small class sizes. Coming from a university where the majority of my classes were very big, I'm looking forward the learning environment at DBC. 
+
+>
+
+### My major impression of DBC is that the mentors there aren't trying to only make sure you know the technical aspects of programming, but help shape you to be an empathetic individual who is able to work efficiently on cross-functional teams. I'm excited about this aspect of the DBC culture because for me individually, if I can acclimate to that culture, it'll ease my mind and make me more comfortable when picking up those technical skills. I think I have seen enough video testimonials and listened to enough people who have gone through Dev Bootcamp, where I have a decent sense of what the atmosphere and culture is all about, but I think not entirely knowing what to expect until I step foot in the building, is something that will be exciting for me. 
+
+>
+
+### Overall, I feel as though I am ready to give this program 110% of my time and effort, especially because I don't have many other responsibilities at this point in time. As someone starting out as basically a beginner, I am coming into this program hoping, somewhat naively, that my drive and determination will be able to get me through it all. I'm eager to see where this will lead me, and connect with the other students who are on this 18 week journey as well. 
+
+>
+
+## Until next time,
+
+>
+
+## Vineet Rastogi
