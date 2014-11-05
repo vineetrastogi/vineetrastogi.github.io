@@ -19,36 +19,34 @@ a:visited {
 }
 
 #navbar {
-	margin-right: auto;
-	margin-left: auto;
- 	margin-top: auto;
- 	margin: 20px;
- 	border: 1px solid green;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border: 3px solid green;
 }
 
 #navlinks {
 	display: inline;
-	border: 3px solid green;
-	font-size: 30px;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin: 20px;
+	border: 2px solid green;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px;
 }
 
 #blogpost {
-	height: auto;
 	width: 65%;
-	margin-bottom: 10px;
 	float: left;
 	border: 3px solid green;
 }
 
 #right {
 	height: auto;
-	width: 30%;
+	width: 32%;
 	margin-bottom: 10px;
 	float: right;
 	border: 3px solid green;
+	padding-left: 5px;
 }
 
 
