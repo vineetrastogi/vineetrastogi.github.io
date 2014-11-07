@@ -51,6 +51,12 @@ ul {
 	width: 100%;
 }
 
+#navbar-cv {
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+
 #navlinks {
 	display: inline;
 	font-size: 18px;
