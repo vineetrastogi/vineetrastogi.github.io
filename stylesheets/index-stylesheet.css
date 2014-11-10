@@ -41,11 +41,12 @@ ul {
 }
 
 #blogpost {
-	max-width: 700px;
+	max-width: 750px;
+	font-size: 18px;
 	padding: 15px;
 	margin-left: 20%;
-	line-height: 20px;
-	margin-bottom: 60px;
+	line-height: 25px;
+	margin-bottom: -5px;
 	background-color: black;
 	opacity: 0.9;
 }
@@ -56,6 +57,19 @@ code {
 	padding: 10px;
 	font-family: monospace;
 	font-weight: bold;
+}
+
+#next-previous {
+	margin-bottom: 60px;
+	opacity: 0.9;
+}
+
+#next-previous-links {
+	display: inline;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 23.5%;
 }
 
 #navbar {
