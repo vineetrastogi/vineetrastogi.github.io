@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+		<title>Vineet's Blog</title>
+	</head>
+	<body>
+		<div id="Header">
+		<h1><a href="index.html" style="text-decoration: none">Vineet Rastogi</a></h1>
+		</div>
+
+		<div>
+			
+			<!--Facebook-->
+
+			<a href="https://www.facebook.com/VineetRastogi" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/facebook.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Twitter-->
+
+			<a href="https://twitter.com/Rastogi_Vineet" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/twitter.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Linkedin-->
+
+			<a href="https://www.linkedin.com/pub/vineet-rastogi/41/227/81a" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/linkedin.JPG" height="40px" width="40px">
+			</a>
+
+			<!-- Google+ -->
+
+			<a href="https://plus.google.com/u/0/114145330932964015918/posts" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/google+.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Github-->
+
+			<a href="https://github.com/vineetrastogi" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/github.JPG" height="40px" width="40px">
+			</a>
+
+		</div>
+
+		<div id="blogpost">
+		<h3>Arrays and Hashes</h3>
+			<h4>November 10, 2014</h4>
+			<p>
+				This week has been all about being able to go through the basics of what makes Ruby tick. I've had basic exposure to Java through classes in college, and can say that Ruby seems like a language that is much more intuitive and syntactically basic. (I might be eating these words in a few weeks though). Anyways, one of the more useful and interesting topics that I've learned about recently has been when to use an array vs. a hash.
+			</p>
+			<p>
+				Essentially the way I think about it is that both of these tools are useful, but can be utilized for different people based on how they think or what they need. Some people really like to have a related or ordered list of items which they can pull from at any point in time (arrays), and others like to have a list of items paired with similar items (hashes). This may be confusing at first, but hopefully when I'm done with this post we'll both have a better understanding. 
+			</p>
+			<p>
+				<b>Arrays</b> are stored lists of values which are related to one another or are organized in a certain order. 
+			</p>
+			<p>
+				Arrays can be created using:
+			</p>
+			<code>arr = Array.new</code>
+			<p>Or:</p>
+			<code>arr = [x, y, z] </code>
+			<p>
+				This is an array with an ordered list of numbers
+			</p>
+			<code> arr = [1. 2. 3. 4. 5. 6]</code>
+			<p>
+				Here is an array with a list of different types of juices
+			</p>
+			<code> arr = [apple, orange, grape, pineapple, guava]</code>
+			<p>
+				You can access any value in an array at any time using this syntax:
+			</p>
+			<code> arr = [apple, orange, grape, pineapple, guava]</code>
+			<p></p>
+			<code>arr[0] #=> apple</code>
+			<p></p>
+			<code>arr[3] #=> pineapple</code>
+			<p>
+				There are a ton of methods in ruby that allow you to manipulate arrays. You can add and delete values, organize the values, combine arrays, etc. You get the point. There's a ton of stuff you can do with arrays, but the basic reason to use them is simple: <b>Arrays are used to organize a set of values that make sense to be together.</b> 
+			</p>
+			<p>
+				<b>Hashes</b> are similar to arrays in the sense that they are used to store values, but are used for different purposes. Hashes are more associative in their usage. They are used to create pairs of values which are similar, rather than having a huge list of related values. 
+			</p>
+			<p>
+				Heres a hash I'm creating that stores the grades of students in a class.
+			</p>
+			<code>grades = {:Elizabeth => 90, :Jimmy => 85, :Clayton => 76, :Samantha => 88} </code>
+			<p>
+				You can also create hashes by using:
+			</p>
+			<code>grades = Hash.new</code>
+			<p>
+				As you can see, hashes are used to assign values to certain elements. These pairs are called <b>keys</b> and <b>values</b> respectively. These values can be accessed similarly to arrays:
+			</p>
+			<code>grades[:Jimmy] #=> 85</code>
+			<p></p>
+			<code>grades[:Samantha] #=> 88</code>
+			<p>
+				Hopefully you can now distinguish hashes from arrays, and their respective usages. These are definitely tools that are fairly reliant on preference by the programmer, and each have their own benefits and detriments.
+			</p>
+			<p>
+				Thanks for reading!
+			</p>
+			<p>
+				Vineet Rastogi
+			</p>
+
+		</div>
+
+		<div id="next-previous">
+			<ul>
+				<li id="next-previous-links"><a href="t2-css-design.html" style="text-decoration: none">Previous Post</a></li>
+				<li id="next-previous-links">Next Post</li>
+			</ul>
+			
+		</div>
+
+		<div id="navbar">
+			<ul>
+				<li id="navlinks"><a href="index.html" style="text-decoration: none">Home</a></li>
+				<li id="navlinks"><a href="about-me.html" style="text-decoration: none">About Me</a></li>
+				<li id="navlinks">Projects</li>
+				<li id="navlinks"><a href="cv.html" style="text-decoration: none">CV</a></li>
+				<li id="navlinks"><a href="blog-template.html" style="text-decoration: none">Blog</a></li>
+				<li id="navlinks">Contact</li>
+				</ul>
+		</div>
+
+
+
+	</body>
+
+</html>

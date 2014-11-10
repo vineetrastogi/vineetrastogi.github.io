@@ -41,20 +41,24 @@ ul {
 }
 
 #blogpost {
+	max-width: 700px;
+	padding: 15px;
+	margin-left: 20%;
+	line-height: 20px;
+	margin-bottom: 60px;
 	background-color: black;
 	opacity: 0.9;
-	text-align: center;
+}
+
+code {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	font-family: monospace;
+	font-weight: bold;
 }
 
 #navbar {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	background-color: black;
-	opacity: 0.9;
-}
-
-#navbar-cv {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -69,3 +73,8 @@ ul {
 	padding-right: 10px;
 	margin: 5px;
 }
+
+
+
+
+

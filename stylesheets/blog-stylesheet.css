@@ -41,10 +41,35 @@ ul {
 }
 
 #blogpost {
+	max-width: 750px;
+	font-size: 18px;
+	padding: 15px;
+	margin-left: 20%;
+	line-height: 25px;
+	margin-bottom: -5px;
 	background-color: black;
 	opacity: 0.9;
-	padding-bottom: 50px;
-	text-align: center;
+}
+
+code {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+#next-previous {
+	margin-bottom: 60px;
+	opacity: 0.9;
+}
+
+#next-previous-links {
+	display: inline;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 23.5%;
 }
 
 #navbar {
