@@ -43,12 +43,15 @@ ul {
 #blogpost {
 	background-color: black;
 	opacity: 0.9;
+	padding-bottom: 50px;
 }
 
 #navbar {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	background-color: black;
+	opacity: 0.7;
 }
 
 #navlinks {
