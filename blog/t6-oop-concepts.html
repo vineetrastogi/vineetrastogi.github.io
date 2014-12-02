@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+		<title>Vineet's Blog</title>
+	</head>
+	<body>
+		<div id="Header">
+		<h1><a href="index.html" style="text-decoration: none">Vineet Rastogi</a></h1>
+		</div>
+
+		<div>
+			
+			<!--Facebook-->
+
+			<a href="https://www.facebook.com/VineetRastogi" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/facebook.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Twitter-->
+
+			<a href="https://twitter.com/Rastogi_Vineet" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/twitter.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Linkedin-->
+
+			<a href="https://www.linkedin.com/pub/vineet-rastogi/41/227/81a" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/linkedin.JPG" height="40px" width="40px">
+			</a>
+
+			<!-- Google+ -->
+
+			<a href="https://plus.google.com/u/0/114145330932964015918/posts" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/google+.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Github-->
+
+			<a href="https://github.com/vineetrastogi" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/github.JPG" height="40px" width="40px">
+			</a>
+
+		</div>
+
+		<div id="blogpost">
+		<h3>Variable Scope</h3>
+			<h4>December 2, 2014</h4>
+			<p>
+				One of the things that has become really important since I started working with Ruby Classes, has been understanding the usage of different types of variables. 
+			</p>
+			<p>
+				There are 5 types of variables that I've dealt with thus far:
+			</p>
+			<code>CONSTANT, $global, @@class, @instance, and local variables.</code>
+			<p>
+				<b>CONSTANT</b> variables are defined using all uppercase letters or beginning with one uppercase letter. These variables can be altered if you want, but the program will give you a warning to make sure you know you're changing the value. These variables can be accessed anywhere in the program, regardless of scope. CONSTANT variables are typically used to keep track of values which are, as the name infers, static, and will not change. 
+			</p>
+			<img src="imgs/constant-variables.JPG">
+			<p>
+				<b>$global</b> variables, like CONSTANTS have accessibility from anywhere, and can be changed at any time in a Ruby program. This is not the best practice though, because they are meant to be relatively static, and not manipulated as frequently as other variables. These variables are identified by the $ before the variable name. 
+			</p>
+			<img src="imgs/global-variables.JPG">
+			<p>
+				The point of this is that the global variable can be defined outside of the method or class, and can be called anywhere within it. Global variables are typically unchanging variables because manipulating them throughout a program would create inconsistency and troubleshooting problems.
+			</p>
+			<p>
+				<b>@@class</b> variables are shared across all instances of any given class. They are able to be used in instance methods within a class, as well as outside of the class. Whenever you create a new instance of a particular class, you can use that same @@class variable within the instance. These variables are defined using a @@ before the variable name. 
+			</p>
+			<p>
+				<b>@instance variables</b> are variables which can only be accessed within any given instance of a Class. They cannot be accessed outside of the class. These variables are meant to have scope which is accessible to any method within the same class. These variables are defined using a @ before the variable name.
+			</p>
+			<img src="imgs/class-and-instance-variables.JPG">
+			<p>
+				This is an example showing how instance variables are defined and used within each instance of the class, Speak. The class variable @@total though keeps updating throughout each instance of the class (sentence1, sentence2, and sentence 3).
+			</p>
+			<p>
+				<b>local variables</b> are variables whose scope is only valid within the immediate parent method in which they are defined. They can be accessed and manipulated only within that parent method. This is the reason why when working with classes, we use instance variables. It allows us to bypass the issue of scope. Local variables are defined by having any word which begins in a lowercase letter or an underscore.
+			</p>
+			<img src="imgs/local-variables.JPG">
+			<p>
+				I hope this post gave you a good idea of what each of the variables are, what their scope is, and how they can be used best!
+			</p>
+			<p>
+				Thanks for reading,
+			</p>
+			<p>
+				Vineet Rastogi
+			</p>
+
+			
+		</div>
+
+		<div id="next-previous">
+			<ul>
+				<li id="next-previous-links"><a href="c5-feedback.html" style="text-decoration: none">Previous Post</a></li>
+				<li id="next-previous-links"><a href="c6-stereotype-threat.html" style="text-decoration: none">Next Post</li>
+			</ul>
+			
+		</div>
+
+		<div id="navbar">
+			<ul>
+				<li id="navlinks"><a href="index.html" style="text-decoration: none">Home</a></li>
+				<li id="navlinks"><a href="about-me.html" style="text-decoration: none">About Me</a></li>
+				<li id="navlinks">Projects</li>
+				<li id="navlinks"><a href="cv.html" style="text-decoration: none">CV</a></li>
+				<li id="navlinks"><a href="blog-template.html" style="text-decoration: none">Blog</a></li>
+				<li id="navlinks">Contact</li>
+				</ul>
+		</div>
+
+
+
+	</body>
+
+</html>
