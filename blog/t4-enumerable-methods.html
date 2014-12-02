@@ -67,11 +67,9 @@
 				One of the most useful Enumerables that I have come across this past week has been the <b>Group_by</b> method. Essentially what it does is returns a hash with values in arrays which are grouped according to certain parameters in the method's code block.
 			</p>
 			<pre><code>fruits = ["Apple", "Banana", "Plum", "Grape", "Apricot", "Peach", "Guava", "Boysenberry"]</code></pre>
-			<p></p>
-			<pre><code>first_letter = fruits.group_by { |x| x[0] }	
-					
-			{"A" => ["Apple", "Apricot"], "B" => ["Banana", "Boysenberry"], "G" => ["Grape", "Guava"], "P" => ["Plum", "Peach"]}</code></pre>
-
+			<pre><code>first_letter = fruits.group_by { |x| x[0] }</code></pre>	
+			<p>This gives us:</p>
+			<pre><code>{"A" => ["Apple", "Apricot"], "B" => ["Banana", "Boysenberry"], "G" => ["Grape", "Guava"], "P" => ["Plum", "Peach"]}</code></pre>
 			<p>
 				As you can see, this specific example grouped an array of fruits by their first letters. It then created a hash to create keys and values for those letters and elements respectively. The code block { |x| x[0] } basically says that for each element x, I want you to pay attention to, and sort by the first letter (x[0]) in each element.
 			</p>
