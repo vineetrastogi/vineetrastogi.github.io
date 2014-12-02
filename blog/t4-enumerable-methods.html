@@ -52,13 +52,11 @@
 			<p>
 				If we wanted to look at an array and for example, find the number of elements in that array, you could use the <b>method: .length</b>. 
 			</p>
-			<code>
-				array = [0,1,2,3,4,5]
-			</code>
+			<pre><code>array = [0,1,2,3,4,5]</code></pre></pre>
 			<p></p>
-			<code>
-				array.length # returns 6, because there are 6 elements in the array
-			</code>
+			<p>
+				array.length returns 6, because there are 6 elements in the array
+			</p>
 			<p>
 				This is a basic example of using a method to return a characteristic of a data structure or object. What if we wanted to use more complex methods that could iterate over and manipulate multiple elements?
 			</p> 
@@ -68,17 +66,12 @@
 			<p> 
 				One of the most useful Enumerables that I have come across this past week has been the <b>Group_by</b> method. Essentially what it does is returns a hash with values in arrays which are grouped according to certain parameters in the method's code block.
 			</p>
-			<code>
-				fruits = ["Apple", "Banana", "Plum", "Grape", "Apricot", "Peach", "Guava", "Boysenberry"]
-			</code>
+			<pre><code>fruits = ["Apple", "Banana", "Plum", "Grape", "Apricot", "Peach", "Guava", "Boysenberry"]</code></pre>
 			<p></p>
-			<code>
-				first_letter = fruits.group_by { |x| x[0] }
-			</code>
-			<p></p>
-			<code>
-				# {"A" => ["Apple", "Apricot"], "B" => ["Banana", "Boysenberry"], "G" => ["Grape", "Guava"], "P" => ["Plum", "Peach"]}
-			</code>
+			<pre><code>first_letter = fruits.group_by { |x| x[0] }	
+					
+			{"A" => ["Apple", "Apricot"], "B" => ["Banana", "Boysenberry"], "G" => ["Grape", "Guava"], "P" => ["Plum", "Peach"]}</code></pre>
+
 			<p>
 				As you can see, this specific example grouped an array of fruits by their first letters. It then created a hash to create keys and values for those letters and elements respectively. The code block { |x| x[0] } basically says that for each element x, I want you to pay attention to, and sort by the first letter (x[0]) in each element.
 			</p>
