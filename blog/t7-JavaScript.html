@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+		<title>Vineet's Blog</title>
+	</head>
+	<body>
+		<div id="Header">
+		<h1><a href="index.html" style="text-decoration: none">Vineet Rastogi</a></h1>
+		</div>
+
+		<div>
+			
+			<!--Facebook-->
+
+			<a href="https://www.facebook.com/VineetRastogi" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/facebook.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Twitter-->
+
+			<a href="https://twitter.com/Rastogi_Vineet" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/twitter.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Linkedin-->
+
+			<a href="https://www.linkedin.com/pub/vineet-rastogi/41/227/81a" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/linkedin.JPG" height="40px" width="40px">
+			</a>
+
+			<!-- Google+ -->
+
+			<a href="https://plus.google.com/u/0/114145330932964015918/posts" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/google+.JPG" height="40px" width="40px">
+			</a>
+
+			<!--Github-->
+
+			<a href="https://github.com/vineetrastogi" target="_blank" style="text-decoration: none">
+				<img id="social" src="imgs/github.JPG" height="40px" width="40px">
+			</a>
+
+		</div>
+
+		<div id="blogpost">
+		<h3>Loops in JavaScript vs. Ruby</h3>
+			<h4>December 9, 2014</h4>
+			<p>
+				This has been my introductory week to JavaScript, and so far, I like it a lot. I think this is mostly because it is relatively similar to Ruby, at least with the way that data is presented and manipulated. One thing specifically that I wanted to focus on is looping in Ruby vs. looping in JavaScript.
+			</p>
+			<p>
+				<b>While Loops in Ruby</b>
+			</p>
+			<pre><code>low = 0
+high = 5
+
+while low < high
+	puts ("For now, #{low} is less than #{high}")
+	low += 1
+end
+
+#For now, 0 is less than 5
+#For now, 1 is less than 5
+#For now, 2 is less than 5
+#For now, 3 is less than 5
+#For now, 4 is less than 5</code></pre>
+			<p>
+				<b>While Loops in JavaScript</b>
+			</p>
+			<pre><code>var low = 0;
+var high = 5;
+
+while (low < high) {
+	console.log("For now, " + low + " is less than " + high);
+	low += 1;
+}
+
+// For now, 0 is less than 5
+// For now, 1 is less than 5
+// For now, 2 is less than 5
+// For now, 3 is less than 5
+// For now, 4 is less than 5</code></pre>
+			<p>
+				As you can see, while loops in Ruby and JavaScript have essentially the same structure and components. The one thing in particular that I like more about Ruby, is the fact that it is much less verbose than JavaScript. JavaScript requires curly brackets {} around its functions and loops, as well as requiring semicolons after each of its statements. This is not a big deal by any means, but definitely requires me to me much more thoughtful when writing my code. JavaScript requires variables to be defined using the "var" keyword, and has different types of string interpolation than Ruby. (#{Ruby} vs. "JavaScript" + variable).
+			</p>
+			<p>
+				<b>For Loops in Ruby</b>
+			</p>
+			<pre><code>int = 0
+
+for int in 0..4
+	puts("The number is now #{int}!")
+end
+
+# The number is now 0!
+# The number is now 1!
+# The number is now 2!
+# The number is now 3!
+# The number is now 4!
+</code></pre>
+			<p>
+				<b>For Loops in JavaScript</b>
+			</p>
+			<pre><code>var low = 0;
+var high = 5;
+
+for (low = 0; low < high; low++) {
+	console.log("The number is now " + low + "!");
+}
+
+// The number is now 0!
+// The number is now 1!
+// The number is now 2!
+// The number is now 3!
+// The number is now 4!</code></pre>
+			<p>
+				The difference between for loops in Ruby vs. JavaScript is a bit more noticeable. In Ruby, you need to specify exactly how many times you are looping which an integer value. In JavaScript though, you are able to use variables to assign range values for the loop. Also, within JavaScript, there is a specific format you must have for for loops. (int = 0; int < x; int++). This essentially sets the variable, determines the range for the loop, and tells the loop how you want to manipulate that variable. In Ruby, it is much simpler. (for foo in 0..4).
+			</p>
+			<p>
+				Both of these languages definitely have similar usages thus far, while maintaining unique details. As I am a JavaScript noob so far, I am sure I will learn more about the features of this language that are different from Ruby, and am excited to have these languages at my disposal moving forward!
+			</p>
+			<p>
+				Thanks for reading,
+			</p>
+			<p>
+				Vineet Rastogi
+			</p>
+
+			
+		</div>
+
+		<div id="next-previous">
+			<ul>
+				<li id="next-previous-links"><a href="c6-stereotype-threat.html" style="text-decoration: none">Previous Post</a></li>
+				<li id="next-previous-links"><a href="c7-values.html" style="text-decoration: none">Next Post</li>
+			</ul>
+			
+		</div>
+
+		<div id="navbar">
+			<ul>
+				<li id="navlinks"><a href="index.html" style="text-decoration: none">Home</a></li>
+				<li id="navlinks"><a href="about-me.html" style="text-decoration: none">About Me</a></li>
+				<li id="navlinks">Projects</li>
+				<li id="navlinks"><a href="cv.html" style="text-decoration: none">CV</a></li>
+				<li id="navlinks"><a href="blog-template.html" style="text-decoration: none">Blog</a></li>
+				<li id="navlinks">Contact</li>
+				</ul>
+		</div>
+
+
+
+	</body>
+
+</html>
