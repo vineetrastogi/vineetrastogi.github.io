@@ -45,23 +45,24 @@
 		</div>
 
 		<div id="blogpost">
-		<h3>How and when to use Ruby Classes</h3>
-			<h4>November 25, 2014</h4>
+		<h3>What is Test Driven Development?</h3>
+			<h4>December 16, 2014</h4>
 			<p>
-				For the past couple weeks, we have mostly been using methods to organize our code in ruby, and use the built-in objects that ruby provides. Most recently we have started to learn how to use <b>Ruby Classes</b>. A class in ruby is essentially a way to create numerous methods within one object, and gives you the ability to call on various attributes of that class from anywhere.
+				In recent weeks, as the coding challenges in Phase 0 have become more challenging, the one thing which has really helped me to work through each problem has been <b>Test Driven Development.</b> Essentially, this is a process where I would write the test code for a program before even starting on it. This makes sure that I have my goals for the program in front of me before beginning. As I go along in the program, I continue to write and run tests which incrementally shape and evaluate the program. 
+			</p>
+			<p>Here's a simple example of some tests written for a Ruby program.</p>
+			<code><pre>
+# ============== TESTS ================ #
+p super_fizzbuzz([1,2,3]) == [1,2,"Fizz"]
+p super_fizzbuzz([15,5,3,1]) == ["FizzBuzz","Buzz","Fizz",1]</pre></code>
+			<p>
+				This is a program which essentially takes in an array of integers and returns a new array with the words "Fizz", "Buzz", and "FizzBuzz" in various positions based on the conditions set in the program.
 			</p>
 			<p>
-				Lets look through an example of a Class where we ask what the ticket prices and timings are for a movie in a theater.
-			</p>
-			<img src="imgs/ruby-classes.JPG">
-			<p>
-				Within this class, we have three different methods. The <b>initialize</b> method is absolutely necessary in any class. This method takes the parameter (movie_name) and also is what sets the <b>instance variables.</b> These variables are essentially variables that are able to accessed by any method within a class by putting a "@" in front of their names. This allows us to bypass the issue of scope within the class. 
+				The tests here though are initiated with the "p" character, and the method call is set "==" to the expected output. This will return "true" or "false" based on if that output is fulfilled by the program.
 			</p>
 			<p>
-				These methods within classes are also only able to be changed within the class itself, but as you can see, can be executed outside the class. A new class can be created using the new_class = Class.new syntax. Its methods can be executed using new_class.method.
-			</p>
-			<p>
-				Classes are really useful tools in ruby because they allows us to create specific objects that can be accessed externally and used for any number of purposes. It has been really exciting for me to learn over the past week how to utilize classes, and I'm looking forward to making more complex ones in the future!
+				When writing a program, regardless of its simplicity, it's really important to ensure that it's doing exactly what you want it to do. Test Driven Development allows you to have full control of what is going on in the program at any point in time. This is why it's crucial to create these tests before you begin the program, and as you go along. This process has been invaluable for me in recent weeks, and I hope this post was useful for you!
 			</p>
 			<p>
 				Thanks for reading,
@@ -75,8 +76,8 @@
 
 		<div id="next-previous">
 			<ul>
-				<li id="next-previous-links"><a href="c4-tech-issues.html" style="text-decoration: none">Previous Post</a></li>
-				<li id="next-previous-links"><a href="c5-feedback.html" style="text-decoration: none">Next Post</li>
+				<li id="next-previous-links"><a href="c7-values.html" style="text-decoration: none">Previous Post</a></li>
+				<li id="next-previous-links"><a href="c8-conflict.html" style="text-decoration: none">Next Post</li>
 			</ul>
 			
 		</div>
