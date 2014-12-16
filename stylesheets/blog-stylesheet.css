@@ -1,32 +1,31 @@
 html {
-	background: url("../blog/imgs/seahawks.jpg") no-repeat center center fixed;
-	background-size: cover;
+	background-color: #ACFF83;
 }
 
 a:link {
-	color: #00CC00;
+	color: #003D00;
 }
 
 a:visited {
-	color: #32CD32;
+	color: #003D00;
 }
 
 a:hover {
-	text-shadow: 0 0 15px #00FF00;
+	text-shadow: 0 0 15px #003D00;
 }
 
 #Header, #blog-list, #blogpost, #next-previous-links, #navlinks {
-	color: #00CC00;
 	font-family: 'Rokkitt', serif;
+	color: #003D00;
 }
 
 #Header {
-	margin: auto;;
+	margin: auto;
 	width: auto;
 }
 
 #social:hover {
-	box-shadow: 0 0 15px #00FF00;
+	box-shadow: 0 0 15px #003D00;
 }
 
 #blog-list {  
@@ -36,8 +35,8 @@ a:hover {
 	margin-left: 20%;
 	line-height: 40px;
 	margin-bottom: 60px;
-	background-color: black;
 	opacity: 0.9;
+	font-weight: bold;
 }
 
 ul {
@@ -51,7 +50,6 @@ ul {
 	margin-left: 20%;
 	line-height: 25px;
 	margin-bottom: -5px;
-	background-color: black;
 	opacity: 0.98;
 }
 
@@ -64,7 +62,7 @@ pre {
 	white-space: pre-wrap;
 	text-align: justify;
 	font-weight: bold;
-  	background-color: #989898;
+  	background-color: white;
 	color: black;
 	font-size: 12px;
   	padding: 15px 15px 15px 15px;
@@ -88,7 +86,8 @@ pre {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: black;
+	background-color: #5C9D5C;
+	font-weight: bold;
 	opacity: 0.9;
 }
 
