@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet-stylesheet.css">
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+		<title>Ruby Cheat Sheet</title>
+	</head>
+	<body>
+		<div id="title">
+			<h1>Ruby Cheat Sheet</h1>
+		</div>
+
+		<div id="categories">
+			<div id="variables">
+				<h2>Variables</h2>
+				<p>local</p>
+				<p>@instance</p>
+				<p>@@class</p>
+				<p>CONSTANT</p>
+				<p>$global</p>
+			</div>
+			<div id="arrays">
+				<h2>Arrays</h2>
+				<p>Array::new (int [,obj]) => array</p>
+				<p>Array#clear</p>
+				<p>Array#map! do |x| ... end</p>
+				<p>Array#delete (value) => obj or nil</p>
+				<p>Array#delete_at (index) => obj or n</p>
+				<p>Array#delete_if do |x| ... end</p>
+				<p>Array#flatten! => array</p>
+				<p>Array#include? (value) => t or f</p>
+				<p>Array#insert (idx, obj...) => array</p>
+				<p>Array#join ([string]) => string</p>
+				<p>Array#length => integer</p>
+				<p>Array#pop => obj or nil</p>
+				<p>Array#push (obj...) => array</p>
+			</div>
+			<div id="strings">
+				<h2>Strings</h2>
+				<p>Str#[num, num/range/regx] => str</p>
+                <p>Str#capitalize! => string</p>
+                <p>Str#center (int [,str]) => str</p>
+                <p>Str#count => integer</p>
+                <p>Str#delete! ([string]) => string</p>
+                <p>Str#downcase! => string</p>
+                <p>Str#each ([str]) do |str| ... end</p>
+                <p>Str#gsub! (rgx) do |match| ... end</p>
+                <p>Str#include? (str) => true/false</p>
+                <p>Str#index (str/reg [,off]) => int</p>
+                <p>Str#insert (int, string) => string</p>
+                <p>Str#length => integer</p>
+                <p>Str#ljust => (int [,padstr]) => str</p>
+                <p>Str#index (str/reg [,off]) => int</p>
+                <p>Str#rjust (int [,padstr]) =>str</p>
+                <p>Str#scan (rgx) do |match| ... end</p>
+                <p>Str#split (string) => array</p>
+                <p>Str#strip! => string</p>
+                <p>Str#sub! (rgx) do |match| ... end</p>
+                <p>Str#swapcase! => string</p>
+                <p>Str#to_sym => symbol</p>
+                <p>Str#tr! (string, string) => string</p>
+                <p>Str#upcase! => string</p>
+			</div>
+			<div id="hashes">
+				<h2>Hashes</h2>
+				<p>Hash#clear</p>
+				<p>Hash#delete (key) => obj or nil</p>
+				<p>Hash#delete_if do |k, v| ... end</p>
+				<p>Hash#each do |k, v| ... end</p>
+				<p>Hash#has_key? (k) => true or false</p>
+				<p>Hash#has_value? (v) => true or false</p>
+				<p>Hash#index (value) => key</p>
+				<p>Hash#keys => array</p>
+				<p>Hash#length => integer</p>
+				<p>Hash#select do |k, v| ... end => array</p>
+				<p>Hash#values => array</p>
+			</div>
+			<div id="expressions">
+				<h2>Expressions</h2>
+		    <p>      	   
+		if <span class="i">expr</span> [then]
+                elsif <span class="i">expr</span>
+                [then]
+                else
+                end
+            </p>
+            <p>
+                unless <span class="i">expr</span> 
+                [then]
+                else
+                end
+            </p>
+            <p>
+                expr if <span class="i">expr</span>    
+            </p>
+            <p>
+                expr unless <span class="i">expr</span> 
+            </p>
+            <p>
+                case <span class="i">expr</span>
+                when comp
+                else
+                end
+            </p>
+            <p>
+                while <span class="i">expr</span> do
+                end
+            </p>
+            <p>
+                until <span class="i">expr</span> do
+                end
+            </p>
+            <p>
+                do 
+                while <span class="i">expr</span> 
+            </p>
+            <p>
+                do
+                until <span class="i">expr</span>
+            </p>
+            <p>
+                for <span class="i">var</span> in <span class="i">expr</span> 
+                [do]
+                end
+            </p>
+            <p>
+                <span class="i">expr</span>.each do
+                end
+            </p>
+			</div>
+            <img src="imgs/ruby-is-fun.jpg">
+		</div>
+	</body>
+</html>

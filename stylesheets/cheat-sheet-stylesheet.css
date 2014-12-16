@@ -1,0 +1,74 @@
+
+#title {
+	text-align: center;
+	font-family: 'Indie Flower', cursive, sans-serif;
+}
+
+#categories {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+	max-height: 1800px;
+	border-bottom: 1px solid black;
+}
+
+#variables {
+	border: 1px solid gray;
+	width: 40%;
+	padding: 10px;
+	background-color: #8ab800;
+}
+
+#arrays {
+	border: 1px solid gray;
+	width: 40%;
+	position: relative;
+	bottom: 266px;
+	left: 600px;
+	padding: 10px;
+	background-color: #33C133;
+}
+
+#strings {
+	border: 1px solid gray;
+	width: 40%;
+	position: relative;
+	bottom: 500px;
+	padding: 10px;
+	background-color: #b8db4d;
+}
+
+#hashes {
+	border: 1px solid gray;
+	width: 40%;
+	position: relative;
+	bottom: 70px;
+	left: 600px;
+	bottom: 1110px;
+	padding: 10px;
+	background-color: #47B56C;
+}
+
+#expressions {
+	border: 1px solid gray;
+	width: 40%;
+	position: relative;
+	bottom: 930px;
+	padding: 10px;
+	background-color: #d6eb99;
+} 
+
+.i {
+    font-style: italic;
+}
+
+img {
+	position: relative;
+	bottom: 1540px;
+	left: 600px;
+	border: 1px solid gray;
+}
+
+
+
