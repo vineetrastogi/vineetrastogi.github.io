@@ -1,5 +1,5 @@
 html {
-	background-color: #ACFF83;
+	background-color: #B4FF8F;
 }
 
 a:link {
@@ -16,7 +16,7 @@ a:hover {
 
 #Header, #blog-list, #introduction, #blogpost, #next-previous-links, #navlinks {
 	font-family: 'Rokkitt', serif;
-	color: #003D00;
+	color: #003700;
 }
 
 #Header {
@@ -69,8 +69,8 @@ pre {
 	width: auto;
 	white-space: pre-wrap;
 	text-align: justify;
-	font-weight: bold;
-  	background-color: white;
+	font-weight: bolder;
+  	background-color: #5FFF5F;
 	color: black;
 	font-size: 12px;
   	padding: 15px 15px 15px 15px;
@@ -93,15 +93,16 @@ pre {
 #navbar {
 	position: fixed;
 	bottom: 0;
+	left: 0;
 	width: 100%;
-	background-color: #5C9D5C;
+	background-color: #7BB07B;
 	font-weight: bold;
 	opacity: 0.9;
 }
 
 #navlinks {
 	display: inline;
-	font-size: 18px;
+	font-size: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 5px;

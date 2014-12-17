@@ -14,7 +14,7 @@ a:hover {
 	text-shadow: 0 0 15px #003D00;
 }
 
-#Header, #blog-list, #blogpost, #next-previous-links, #navlinks {
+#Header, #blog-list, #introduction, #blogpost, #next-previous-links, #navlinks {
 	font-family: 'Rokkitt', serif;
 	color: #003700;
 }
@@ -26,6 +26,14 @@ a:hover {
 
 #social:hover {
 	box-shadow: 0 0 15px #003D00;
+}
+
+#introduction {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
 }
 
 #blog-list {  
@@ -61,8 +69,8 @@ pre {
 	width: auto;
 	white-space: pre-wrap;
 	text-align: justify;
-	font-weight: bold;
-  	background-color: white;
+	font-weight: bolder;
+  	background-color: #5FFF5F;
 	color: black;
 	font-size: 12px;
   	padding: 15px 15px 15px 15px;
@@ -85,15 +93,16 @@ pre {
 #navbar {
 	position: fixed;
 	bottom: 0;
+	left: 0;
 	width: 100%;
-	background-color: #5C9D5C;
+	background-color: #7BB07B;
 	font-weight: bold;
 	opacity: 0.9;
 }
 
 #navlinks {
 	display: inline;
-	font-size: 18px;
+	font-size: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 5px;
