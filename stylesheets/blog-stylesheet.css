@@ -132,6 +132,12 @@ pre {
 #about-me img {
 }
 
+/*CV*/
+
+#resume {
+	margin-bottom: 60px;
+}
+
 /*NEXT AND PREVIOUS BUTTONS*/
 
 #next-previous {
