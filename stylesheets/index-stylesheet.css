@@ -1,5 +1,5 @@
 html {
-	background-color: #B4FF8F;
+	background-color: #BCFF9A;
 }
 
 a:link {
@@ -16,7 +16,7 @@ a:hover {
 
 #Header, #blog-list, #introduction, #blogpost, #next-previous-links, #navlinks {
 	font-family: 'Rokkitt', serif;
-	color: #003700;
+	color: #002C00;
 }
 
 /*HEADER*/
@@ -94,7 +94,7 @@ pre {
 	white-space: pre-wrap;
 	text-align: justify;
 	font-weight: bolder;
-  	background-color: #5FFF5F;
+  	background-color: #7DFF7D;
 	color: black;
 	font-size: 12px;
   	padding: 15px 15px 15px 15px;
