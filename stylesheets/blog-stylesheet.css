@@ -19,14 +19,20 @@ a:hover {
 	color: #003700;
 }
 
+/*HEADER*/
+
 #Header {
 	margin: auto;
 	width: auto;
 }
 
+/*SOCIAL MEDIA ICONS*/
+
 #social:hover {
 	box-shadow: 0 0 15px #003D00;
 }
+
+/*WELCOME MESSAGE ON HOME SCREEN*/
 
 #introduction {
   max-width: 750px;
@@ -35,6 +41,8 @@ a:hover {
   font-weight: bolder;
   font-size: 50px;
 }
+
+/*BLOG LIST AND FORMATTING*/
 
 #blog-list {  
 	max-width: 750px;
@@ -65,6 +73,8 @@ ul li p a {
 
 }
 
+/*BLOG POSTS AND CONTENT*/
+
 #blogpost {
 	max-width: 750px;
 	font-size: 18px;
@@ -91,6 +101,8 @@ pre {
   	overflow: auto;
 }
 
+/*NEXT AND PREBIOUS BUTTONS*/
+
 #next-previous {
 	margin-bottom: 60px;
 	opacity: 0.9;
@@ -103,6 +115,8 @@ pre {
 	padding-right: 10px;
 	margin-left: 23.5%;
 }
+
+/*NAVBAR FOOTER*/
 
 #navbar {
 	position: fixed;

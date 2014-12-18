@@ -19,14 +19,20 @@ a:hover {
 	color: #003700;
 }
 
+/*HEADER*/
+
 #Header {
 	margin: auto;
 	width: auto;
 }
 
+/*SOCIAL MEDIA ICONS*/
+
 #social:hover {
 	box-shadow: 0 0 15px #003D00;
 }
+
+/*WELCOME MESSAGE ON HOME SCREEN*/
 
 #introduction {
   max-width: 750px;
@@ -36,12 +42,14 @@ a:hover {
   font-size: 50px;
 }
 
+/*BLOG LIST AND FORMATTING*/
+
 #blog-list {  
 	max-width: 750px;
 	font-size: 18px;
 	padding: 15px;
 	margin-left: 20%;
-	line-height: 40px;
+	line-height: 20px;
 	margin-bottom: 60px;
 	opacity: 0.9;
 	font-weight: bold;
@@ -50,6 +58,22 @@ a:hover {
 ul {
 	list-style-type: none;
 }
+
+#blog-list ul li {
+	border-bottom: 2px solid green;
+}
+
+ul li p {
+	font-weight: normal;
+}
+
+ul li p a {
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+
+/*BLOG POSTS AND CONTENT*/
 
 #blogpost {
 	max-width: 750px;
@@ -77,6 +101,8 @@ pre {
   	overflow: auto;
 }
 
+/*NEXT AND PREBIOUS BUTTONS*/
+
 #next-previous {
 	margin-bottom: 60px;
 	opacity: 0.9;
@@ -89,6 +115,8 @@ pre {
 	padding-right: 10px;
 	margin-left: 23.5%;
 }
+
+/*NAVBAR FOOTER*/
 
 #navbar {
 	position: fixed;
