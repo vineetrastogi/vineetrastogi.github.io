@@ -24,9 +24,14 @@ a:hover {
 #Header {
 	margin: auto;
 	width: auto;
+	padding-left: 50px;
 }
 
 /*SOCIAL MEDIA ICONS*/
+
+#Social-Header {
+	padding-left: 50px;
+}
 
 #social:hover {
 	box-shadow: 0 0 15px #003D00;
@@ -130,6 +135,7 @@ pre {
 }
 
 #about-me img {
+	padding-top: 40px;
 }
 
 /*CV*/
