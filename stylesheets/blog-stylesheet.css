@@ -124,14 +124,18 @@ pre {
 
 /*ABOUT ME PAGES*/
 
+#about-me{
+	margin-left: 50px;
+}
+
 #about-me p  {
 	float: right;
-	max-width: 750px;
+	max-width: 700px;
 	font-size: 22px;
 	padding: 15px;
 	line-height: 25px;
 	margin-bottom: 60px;
-	opacity: 0.98;
+	margin-left: -15px;
 }
 
 #about-me img {
